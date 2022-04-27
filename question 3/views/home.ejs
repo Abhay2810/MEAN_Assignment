@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Abhay Tiwari's MEAN Project </title>
+	<style type="text/css" media="screen">
+		body {
+			text-decoration-color: white;
+			font-size:3em;
+		}
+	</style>
+</head>
+
+<body>
+	Hobbies of <%=data.name%> are:<br/>
+	
+	<ul>
+		<% data.hobbies.forEach((item)=>{%>
+		<li><%=item%></li>
+		<%});%>
+	</ul>
+</body>
+
+</html>
