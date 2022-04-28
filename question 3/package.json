@@ -13,7 +13,7 @@
     "nodejs",
     "angular"
   ],
-  "author": "Sapna",
+  "author": "Abhay Tiwari",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.1.3",
